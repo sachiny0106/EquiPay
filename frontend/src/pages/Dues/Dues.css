@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.outer{
+    /* height:200vh; */
+
+    margin:0 auto;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    gap:20px;
+    align-items: flex-start;
+    /* height:700px; */
+   
+}
+.Tt{
+   text-align: center;
+   background-color: rgb(157, 122, 253);
+   height:50px;
+   padding:5px;
+   width:100%;
+   color:rgb(253, 253, 253);
+   font-size: 25px;
+  
+   /* border: 2px solid black; */
+}
+.toggle-dues{
+    /* border:1px solid white;
+    border-radius: 30px;
+    padding: 4px; */
+    cursor: pointer;
+}
+
+.hero-section{
+    /* border:2px solid black; */
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;                 
+    gap:2px;
+    /* height:100vh;    */
+    font-size: large;
+    width:100%;
+    max-height:650px;
+
+}
+.hero-left{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  padding:20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 31px;
+  border:1px solidrgb(157, 122, 253);
+  border-radius: 30px;
+}
+
+
+.due{
+  font-size:20px;
+
+
+  width: 100%;
+}
+
+.dueperson{
+   font-size:18px;
+   margin-bottom: 0px; 
+}
+
+.add-btn{
+    padding:10px;
+    font-size: 20px;
+    width:100%;
+    /* opacity: 0.7; */
+
+    border-radius: 20px;
+    display:flex;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.plus-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    background-color: rgb(166, 1, 1);
+    box-shadow:0 0 10px #71b7e6;
+}
+.plus{
+
+    font-size: 40px;
+}
+.plus-btn:hover{
+    border:#71b7e6; 
+    background-color: rgb(162, 252, 162);
+} 
+.hero-right{ 
+    width:50%;
+    display:flex;
+    height: 100%;
+    
+}
+.add-item{
+    color:black;
+}
+.storing-dues{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+    width:100%;
+    overflow-y: auto;
+    height: 100%;
+    height:100%;
+    gap:20px;
+    padding:10px;
+}
+.parent-due{
+    width:100%;
+    border:2px solid rgb(157, 122, 253);
+    border-radius: 30px;
+    padding:10px;
+    background-color: rgb(220, 246, 216);
+}
+
+.delete-minus{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border:1px solid black;
+    border-radius: 50%;
+    padding:10px;
+}
+.delete-minus:hover{
+    background-color: rgb(38, 206, 38);
+}
+.due-box{
+    display:flex;
+    /* border:1px solid black; */
+    flex-direction: column; 
+    justify-content: center;
+    align-items:center;
+    width:50%;
+    padding:5px;
+    gap:7px;
+}
+
+.due-b{
+    width:100%;
+    display: flex;
+    gap:40px;
+    justify-content:flex-start;
+}
+.active{
+    display:none;
+}
+
+.tare{
+    background-color: rgb(134, 199, 255);
+}
