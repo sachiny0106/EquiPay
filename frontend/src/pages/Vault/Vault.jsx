@@ -47,7 +47,7 @@ function Vault({ thememode, toggle, user }) {
         console.log(url);
         const addUrl = async () => {
           try {
-            const res = await axios.post(`http://localhost:3001/api/user/addUrl/${user._id}`, { url, fileName });
+            const res = await axios.post(`https://equipay-gqsl.onrender.com/api/user/addUrl/${user._id}`, { url, fileName });
             console.log("File URL:", res.data);
           } catch (err) {
             console.log(err);
@@ -71,7 +71,7 @@ function Vault({ thememode, toggle, user }) {
   useEffect(() => {
     const getFiles = async () => {
       try {
-        const res = await axios.get(`http://localhost:3001/api/user/getUrls/${user._id}`);
+        const res = await axios.get(`https://equipay-gqsl.onrender.com/api/user/getUrls/${user._id}`);
         console.log(res.data);
         setfileUrls(res.data.files);
       } catch (err) {
